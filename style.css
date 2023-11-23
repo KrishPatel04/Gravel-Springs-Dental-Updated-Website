@@ -1,0 +1,583 @@
+/* Entire side menu CSS */
+#sidebarMenu { /*https://www.w3schools.com/css/css_positioning.asp*/
+  position: fixed; /* Sidebar Menu stays in place when scrolling*/
+  /*Position TOP-LEFT*/
+  top: 0; /* change? purpose? */
+  left: 0; /* change? purpose? */
+  height: 100%;
+  width: 200px;
+  background-color: #000054;
+  font-size: 20px;
+  
+}
+
+#sidebarMenu a {
+  /* https://www.w3schools.com/cssref/pr_text_text-decoration.php */
+  text-decoration: underline wavy hotpink 2px;
+}
+#sidebarMenu a:hover {
+  /* https://www.w3schools.com/cssref/pr_text_text-decoration.php */
+  text-decoration: underline wavy #6CABDD 2px;
+}
+
+/* '<ul>' list part CSS */
+#sidebarMenuList {
+  margin: 10px; /* Edit */
+  padding: 20px; /* Edit */
+  color: #000000;
+  /*https://www.w3schools.com/cssref/pr_text_text-decoration.php*/
+  list-style: none; /* change? purpose? */
+}
+
+#ai {
+  list-style-image: url('Multimedia/Images/homePicSidebarMenu.png');
+}
+
+#aii {
+  list-style-image: url('Multimedia/Images/aboutPicSidebarmenu.png');
+
+}
+
+#aiii {
+    list-style-image: url('Multimedia/Images/servicesPicSidebarMenu.png');
+
+}
+
+#aiv {
+  list-style-image: url('Multimedia/Images/contactPicSidebarMenu.png')
+  
+}
+
+#av {
+    list-style-image: url('Multimedia/Images/star.png')
+
+}
+
+#avi {
+  list-style-image: url('Multimedia/Images/tooCoolForYou.png')
+}
+
+.sidebarMenuWord {
+  color: white;
+  
+  
+}
+
+#homeMAP {
+  background-color: #00324E;
+  height: 600px;
+}
+
+.sidebarMenuWord:hover { /* ':hover' creates background effect on hover over text */
+  background-color: #CCCCCC;
+
+  
+  
+}
+
+
+#homeImageCaption {
+  font-weight: bolder;
+  font-size: 100%;
+  line-height: 150%;
+  margin-left: 5%;
+
+}
+
+
+.my-hr {
+  border: none;
+  border-top: 2px solid black;
+  width: 89%;
+ /* explain auto */
+  height: 10px;
+  margin-left: 11%;
+}
+
+#slideshowImage {
+  width: 45%;
+  margin-left: 5%
+}
+
+#pickUs {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  margin: 1000 auto;
+/*  color: #555555; */
+  margin-left: 5%;
+}
+
+#meetStaff {
+  margin-left: 100px;
+  width: auto;
+  height: 3125%;
+}
+
+#meetStaff:hover {
+  background-color: #00324E
+}
+
+#meetStaffBackground {
+  background-color: #EFEFEF
+}
+
+#welcome {
+  /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/
+  margin-left: 350px;
+  color: #0066FF
+}
+
+#welcomePhrase {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 350px;
+  color: #3377AA
+}
+
+#welcomeMessage {
+  margin-left: 350px;
+  margin-right: 250px
+}
+
+#home-scheduleAppointment {
+  margin-left: 350px;
+  font-family:'Times New Roman', Times, serif
+  font-weight: bold;
+  text-shadow: 5px 5px 25px #FF336A /* https://www.w3schools.com/cssref/css3_pr_text-shadow.php */
+}
+
+#servicsPicture {
+  width: 50%;
+  display: block;
+  margin-left: 5%; /* change? */
+  margin-right: 0;
+  background-color: whitesmoke;
+
+}
+
+#servicsPicture:hover {
+  background-color: #999999;
+}
+
+#ourServices {
+  font-weight: bold;
+  text-shadow: 5px 5px 5px #666666;
+  margin-left: 5%;
+}
+
+#learnServices{
+  /*background-color: #FFFFFF;*/
+}
+
+.my-hr2 {
+  border: none;
+  border-top: 2px dashed #DDDDDD;
+  width: 89%;
+  margin: 1000 auto;
+  height: 10px;
+  margin-left: 200px;
+
+}
+/*
+#googleMapEmbed {
+  width: 100%
+  height: 500px
+  border: 1px solid black
+  margin-top: 20px
+  allowfullscreen="" 
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+}
+
+*/
+
+#footerNameAddy {
+  font-weight: bold;
+  color: #6CABDD;
+}
+
+.back-to-top {
+  color: hotpink;
+  font-family: fantasy;
+  margin-left: 7%;
+  text-decoration: none; /* Why is this not working. 😐😐 */
+}
+
+.back-to-top:hover {
+  color: #6CABDD;
+}
+
+#backToTop { /* Gravel Springs Dental Pic on Home page */
+  width: 28%
+}
+
+#our-family {
+  color: #6CABDD;
+}
+
+#our-family:hover {
+  color: darkblue
+}
+
+#ourMission {
+  margin-left: 350px;
+  margin-right: 250px;
+  line-height: 200%;
+}
+
+#meetStaffParagraph {
+  margin-left: 350px;
+  margin-right: 250px
+}
+
+.name {
+  color: #FF336A;
+  text-shadow: 5px 5px 25px #0066FF;
+}
+
+.name:hover {
+  color: #0066FF;
+  text-shadow: 5px 5px 25px #FF336A;
+}
+
+.teamPic {
+}
+
+#fightPic {
+  width: 18%
+}
+
+.staffBackground:hover {
+  background-color: #888888;
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-right: 13px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+
+}
+
+.staffBackground {
+  line-height: 200%
+}
+
+#docPic {
+  width: 24%
+}
+
+#rona-pic {
+  width: 25%
+}
+
+#gretchen-pic {
+  width: 22%
+}
+
+#gen-Dentistry {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  color: #666
+}
+
+
+#map-DOC {
+  color: #63A9D0;
+  margin-left: 7%;
+}
+
+#map-ADDY {
+  color: antiquewhite;
+  margin-left: 7%;
+}
+
+#about--teamPic {
+  width: 45%
+}
+
+
+#social-media-pic-contactUs {
+  width: 20%;
+}
+
+#social-media {
+  color: #FF336A;
+  text-shadow: 5px 5px 5px #0066FF;
+}
+
+#contactUs-social:hover {
+  background: #0097AE;
+}
+
+
+#form-FILL-OUT-TEXT {
+  color: #FF1144;
+}
+
+
+#services-Patient-Information-Form-Header-1 {
+  margin-left: 10%;
+}
+/* https://www.computerhope.com/issues/ch001392.htm */
+#overallBOX {
+  width: 60%;
+  border: 1px solid #AAAAAA;
+  border-radius: 8px; /* curved edge */
+  padding: 10px;
+  line-height: 200%;
+  
+  margin-left: 10%;
+  font-size: 125%;
+  color: #FFFFFF;
+  background-color: #00324E;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#Box1 { 
+  border: 1px solid #AAAAAA;
+  border-radius: 8px; /* curved edge */
+  padding: 10px;
+  max-width: 5000%;
+  margin: 0;
+}
+
+#Box2 {
+  border: 1px solid #AAAAAA;
+  border-radius: 8px; /* curved edge */
+  padding: 10px;
+  max-width: 5000%;
+  margin: 0;
+}
+
+#Box3 {
+  border: 1px solid #AAAAAA;
+  border-radius: 8px; /* curved edge */
+  padding: 10px;
+  max-width: 5000%;
+  margin: 0;
+}
+
+#Box4 {
+  border: 1px solid #AAAAAA;
+  border-radius: 8px; /* curved edge */
+  padding: 10px;
+  max-width: 5000%;
+  margin: 0;
+}
+
+#Box5 {
+  border: 1px solid #AAAAAA;
+  border-radius: 8px; /* curved edge */
+  padding: 10px;
+  max-width: 5000%;
+  margin: 0;
+}
+
+.dark-mode {
+  background-color: #000000
+  color: #FFFFFF;
+  
+}
+
+#home-map1 {
+  /* style="border:0; margin-left: 5%; height: 550%;" */
+  border: 0;
+  margin-left: 7%;
+  height: 400px;
+  width: 800px;
+  /* width: fit-content; */
+}
+
+#services-Whole-Table {
+  font-size: 20px; 
+  margin-left:5%; 
+  border: 2px solid black;
+  border-collaspe: collapse;
+}
+
+#captionDr.P-schedule {
+  text-size: 100%;
+  margin-left: 5%;
+}
+
+#start-of-staff-intro {
+  text-align: center;
+  margin-left: 5%;
+  color: #6CABDD;
+  
+}
+
+#start-of-staff-intro:hover {
+  color: hotpink;
+}
+
+
+#my-hr3 {
+  border: none;
+  border-top: 2px solid black;
+  width: 89%;
+ /* explain auto */
+  height: 10px;
+  margin-left: 7%;
+}
+
+
+#home-EMAIL {
+  color: hotpink;
+  text-decoration: none;
+}
+#home-EMAIL:hover {
+  color: #6CABDD;
+}
+#home-PHONE {
+  color: hotpink;
+  text-decoration: none;
+}
+#home-PHONE:hover {
+  color: #6CABDD;
+}
+#home-MAP {
+  color: hotpink;
+}
+#home-MAP:hover {
+  color: #6CABDD;
+}
+
+
+.my-hr3 {
+  border: none;
+  border-top: 2px dotted black;
+  width: 89%;
+ /* explain auto */
+  height: 10px;
+  margin-left: 7%;
+}
+
+#appointment-table-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10%;
+}
+
+#appointment-inside-table-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#appointment-dr-p-day {
+  background-color: #f0f0f0;
+}
+
+.time-slots-text {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#at1-1, #at1-2, #at1-3, #at1-4, #at1-5,
+#at2-1, #at2-2, #at2-3,
+#at3-1, #at3-2, #at3-3, #at3-4, #at3-5,
+#at4-1, #at4-2, #at4-3,
+#at5-1, #at5-2, #at5-3, #at5-4 {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#at1-1, #at1-3, #at1-5 {
+  background-color: #f0f0f0;
+}
+
+#at1-2, #at1-4 {
+  background-color: #c8c8c8;
+}
+
+#at2-1, #at2-2, #at2-3 {
+  background-color: #b2dfee;
+}
+
+#at3-1, #at3-2 {
+  background-color: #f297c7;
+}
+
+#at3-3, #at3-5 {
+  background-color: #f0f0f0;
+}
+
+#at3-4 {
+  background-color: #e6c229;
+}
+
+#at4-1 {
+  background-color: #ccff99;
+}
+
+#at4-2, #at4-3 {
+  background-color: #d7aefb;
+}
+
+#at5-1 {
+  background-color: #ffcc5c;
+}
+
+#at5-2, #at5-3, #at5-4 {
+  background-color: #c8c8c8;
+}
+
+#at6 {
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+#latevid {
+  margin-left: 25%;
+}
+
+#darkMode-button {
+  background-color: #333333;
+  color: #FFFFFF; 
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 7px 15px; 
+  font-size: 12px; 
+  border-radius: 5px;
+  transition: background-color 0.8s ease-in-out; /*  https://www.w3schools.com/css/css3_transitions.asp */
+}
+
+#darkMode-button:hover {
+  background-color: #444444
+}
+
+#darkMode-button:active {
+  transform: translateY(2px);
+  background-color: #222222;
+}
+
+#button-form {
+  background-color: #FFFFFF;
+  color: #0066FF; 
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 7px 15px; 
+  font-size: 12px; 
+  border-radius: 5px;
+  transition: background-color 0.8s ease-in-out;
+  text-shadow: 5px 5px 25px #FF336A;
+}
+
+button-form:hover {
+  color: #FFFFFF; 
+  text-shadow: 5px 5px 25px #333333;
+
+}
+/*
+#homepageMap {
+  width: 50%;
+  height: 100px;
+  margin-left: 5%;
+  border: 0;
+}
+*/
+/* background-image: url('img_girl.jpg') */
